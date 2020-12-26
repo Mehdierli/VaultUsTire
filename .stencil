@@ -1,0 +1,11 @@
+{
+  "customLayouts": {
+    "brand": {},
+    "category": {},
+    "page": {},
+    "product": {}
+  },
+  "normalStoreUrl": "https://ustireworks.com",
+  "accessToken": "swl3aulxvaruffx3gry0bsl82qcxy7z",
+  "port": 3000
+}
