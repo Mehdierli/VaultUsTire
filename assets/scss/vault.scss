@@ -326,7 +326,7 @@ nav.navUser.sticky-object.nav-user-section .navUser-action .header-icon {
 }
 
 #menu div.nav-right {
-  float: right;
+  //float: right;
   width: 90%;
   // height: 49px;
   height: auto;
@@ -429,7 +429,7 @@ div#menu-wrapper {
 }
 
 header div#menu {
-  background-color: stencilColor("main-nav-backgroundColor");
+  //background-color: stencilColor("main-nav-backgroundColor");
   max-width: 1170px;
   margin: 0 auto;
   overflow: visible;
@@ -506,7 +506,7 @@ header div#menu .navPages {
   // position: relative;
   // right: -43px;
   width: auto;
-  float: right;
+  //float: right;
 }
 
 #menu.fixed .navPages-list {
