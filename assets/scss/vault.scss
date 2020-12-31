@@ -1947,7 +1947,15 @@ li.subcategory-item:hover span.subcategory-name, li.subcategory-item:hover>a {
 }
 
 .page-heading {
-  text-align: left;
+  text-align: center;
+  margin:0 0 1rem;
+}
+
+#see-all-tire{
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+  margin:0 0 2rem;
 }
 
 .page-sidebar + .page-content .productGrid .product {
