@@ -9,6 +9,9 @@
 // -----------------------------------------------------------------------------
 
 .productCarousel { // 1
+    display: flex;
+    align-items: center;
+    justify-content: center;
     width: 1px;
     min-width: 100%;
     @include grid-row(
@@ -17,18 +20,19 @@
 }
 
 .productCarousel-slide { // 1
-    @include grid-column(6);
+    margin: 0 0.5rem;
+    @include grid-column(2);
 
     @include breakpoint("small") {
-        width: grid-calc(4, $total-columns);
+        width: grid-calc(1, 2);
     }
 
     @include breakpoint("medium") {
-        width: grid-calc(3, $total-columns);
+        width: grid-calc(2, 2);
     }
 
     @include breakpoint("large") {
-        width: grid-calc(2, $total-columns);
+        width: grid-calc(2, 2);
     }
 
     .card {
